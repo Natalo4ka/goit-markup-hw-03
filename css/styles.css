@@ -1,0 +1,221 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196F3; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  }
+
+img {
+  display: block;
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+/*=========== HEADER =========*/
+.navigation{}
+
+.logo{
+font-family: "Raleway", sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.menu-link{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: #2196F3;
+}
+
+.mail-link{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus{
+color: #2196F3;
+}
+
+.tel-link{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.tel-link:hover,
+.tel-link:focus{
+color: #2196F3; 
+}
+/*=========== END HEADER =========*/
+
+
+
+/*=========== HERO =========*/
+.hero{
+background-color: #2F303A;
+text-align: center;
+}
+.hero-title{
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.modal-btn{
+background-color:#2196F3;
+align-items: center;
+
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+cursor: pointer;
+}
+/*=========== END HERO =========*/
+
+
+
+/*=========== FEATURES =========*/
+.our-features-title{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.our-features-description{
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*=========== END FEATURES =========*/
+
+
+/*=========== ABOUT =========*/
+.our-work-title{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.67;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*=========== END ABOUT =========*/
+
+
+/*=========== TEAM =========*/
+
+.our-team-title{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.67;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our-team-name{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our-team-position{
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*=========== END TEAM =========*/
+
+
+/*=========== FOOTER =========*/
+.page-footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+font-family: "Raleway", sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.address-link{
+
+}
+
+
+
+/*=========== END FOOTER =========*/
