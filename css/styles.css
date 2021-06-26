@@ -38,6 +38,9 @@ img {
 
 
 /*=========== HEADER =========*/
+body {
+ font-family: "Roboto", sans-serif;
+}
 .navigation{}
 
 .logo{
@@ -47,6 +50,9 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: #2196F3;
+}
+.logo-header-part-2{
+  color: #000000;
 }
 
 .menu-link{
@@ -100,7 +106,8 @@ background-color: #2F303A;
 text-align: center;
 }
 .hero-title{
-font-family: "Roboto", sans-serif;
+width: 696px;
+margin: 0 auto;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -112,15 +119,10 @@ color: #FFFFFF;
 
 .modal-btn{
 background-color:#2196F3;
-align-items: center;
-
-font-family: "Roboto", sans-serif;
+font-family: inherit;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 cursor: pointer;
@@ -211,11 +213,94 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
+.logo-footer-part-2 {
+color: #FFFFFF;
+}
 
 .address-link{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
 
+mail-link{
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus{
+color: #2196F3;
+}
+
+.tel-link{
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.tel-link:hover,
+.tel-link:focus{
+color: #2196F3; 
+}
+/*=========== END FOOTER =========*/
+
+/*=========== PORTFOLIO =========*/
+
+.porfolio-buttons-item{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
+
+.porfolio-buttons-item:hover,
+.porfolio-buttons-item: :focus{
+  background-color: #2196F3;
+  color: #FFFFFF;
 }
 
 
+.portfolio-name{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
 
-/*=========== END FOOTER =========*/
+.portfolio-type{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/*=========== END PORTFOLIO =========*/
