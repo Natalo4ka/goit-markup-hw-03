@@ -218,25 +218,25 @@ color: #FFFFFF;
 }
 
 .address-link{
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.72;
 letter-spacing: 0.03em;
-  color: #FFFFFF;
+color: #FFFFFF;
 }
 
 mail-link{
 font-family: "Roboto", sans-serif;
-font-style: normal;
-font-weight: normal;
-
+font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
+
+
 
 .mail-link:hover,
 .mail-link:focus{
@@ -246,7 +246,6 @@ color: #2196F3;
 .tel-link{
 font-family: "Roboto", sans-serif;
 font-style: normal;
-font-weight: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -275,10 +274,10 @@ color: #212121;
 cursor: pointer;
 }
 
-.porfolio-buttons-item:hover,
-.porfolio-buttons-item: :focus{
-  background-color: #2196F3;
-  color: #FFFFFF;
+.porfolio-buttons-item: hover,
+.porfolio-buttons-item: focus{
+background-color: #2196F3;
+color: #FFFFFF;
 }
 
 
@@ -301,6 +300,5 @@ line-height: 30px;
 letter-spacing: 0.03em;
 color: #757575;
 }
-
 
 /*=========== END PORTFOLIO =========*/
